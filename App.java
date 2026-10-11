@@ -1,7 +1,12 @@
+
 public class App {
-	public static void main(string[] args){
-			int a=10;
-			int b=5;
-			system.out.println("the sum is"+(a+b));
-		}
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 5;
+
+        System.out.println("Addition: " + (a + b));
+        System.out.println("Subtraction: " + (a - b));
+        System.out.println("Multiplication: " + (a * b));
+        System.out.println("Division: " + (a / b));
+    }
 }
